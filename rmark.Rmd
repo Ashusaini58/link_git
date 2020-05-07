@@ -3,9 +3,9 @@ title: "first testing"
 author: "me!"
 date: "07/05/2020"
 output:
-  pdf_document: default
   html_document:
     df_print: paged
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -19,6 +19,7 @@ When you click the **Knit** button a *document* **will** be generated that inclu
 
 ```{r}
 print("hello")
+print("fuck off")
 ```
 
 ## Including Plots
